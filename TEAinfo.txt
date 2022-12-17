@@ -1,0 +1,20 @@
+Plaintext: 0x123456789abcdef
+Key: 0xa56babcdf000ffffffffffffabcdef01
+Cyphertext: 0x7556391b2315d9f8
+Decrypted text: 0x123456789abcdef
+
+
+Plaintext: 0x123456789abcdef
+Key: 0xa56babcdffffffffffffffffabcdef01
+Cyphertext: 0xfe18f8f3fcb8dcd3
+Decrypted text: 0x123456789abcdef
+
+
+Plaintext: 0x123456789abcdef
+Key: 0xa56babcdffabffffffffffffabcdef01
+Cyphertext: 0x97f78dcf1dba72ba
+Decrypted text: 0x123456789abcdef
+
+
+
+Use these samples, possibly leave out 0x as well. This only works for these lengths, needs fixing.
